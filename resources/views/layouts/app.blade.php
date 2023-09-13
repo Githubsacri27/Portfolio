@@ -28,6 +28,7 @@
     @include('layouts\sidebar')
 
     @yield('content')
+    <script defer src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
     <div class="circulos">
             <svg class="circulo circulo1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                 <path class="path" d="M46.2,-11.4C52.1,3.1,43.7,25.8,27.5,37.5C11.4,49.1,-12.6,49.7,-32.6,36.9C-52.7,24.2,-69,-1.7,-62.9,-16.5C-56.9,-31.3,-28.4,-34.8,-4.1,-33.5C20.2,-32.1,40.3,-25.9,46.2,-11.4Z" transform="translate(100 100)" />
