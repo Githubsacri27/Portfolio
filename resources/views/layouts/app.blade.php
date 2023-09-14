@@ -18,7 +18,7 @@
     <link href="{{ url('css/style.css')}}" rel="stylesheet">
 
     <!-- CSS Skin File -->
-    <link href="{{ url('css/skins/alternative.css')}}" rel="stylesheet">
+    <link href="{{ url('css/skins/yellow.css')}}" rel="stylesheet">
 
     <!-- Modernizr JS File -->
     <script src="{{ url('js/modernizr.custom.js')}}"></script>
