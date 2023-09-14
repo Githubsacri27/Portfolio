@@ -36,7 +36,7 @@
                             <h3 class="card-title">Works Page</h3>
                         </div>
 
-                        <form class="form-horizontal" method="post" action="{{url('admin/works/add')}}" enctype="multipart/form-data">
+                        <form class="form-horizontal" method="post" action="{{secure_url('admin/works/add')}}" enctype="multipart/form-data">
                             {{csrf_field()}}
                             <div class="card-body">
 

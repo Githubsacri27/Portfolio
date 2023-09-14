@@ -24,7 +24,7 @@
                 <img src="{{secure_url('public/img/'.@$getrecord[0]->profile)}}" class="img-fluid main-img-mobile d-none d-sm-block d-lg-none" alt="my picture" />
                 <h1 class="text-uppercase poppins-font">{{@$getrecord[0]->your_name}}<span>{{@$getrecord[0]->work_experience}}</span></h1>
                 <p class="open-sans-font">{{@$getrecord[0]->description}}</p>
-                <a class="button" href="{{url('about')}}">
+                <a class="button" href="{{secure_url('about')}}">
                     <span class="button-text">more About me</span>
                     <span class="button-icon fa fa-arrow-right"></span>
                 </a>

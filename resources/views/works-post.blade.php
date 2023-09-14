@@ -21,7 +21,7 @@
                 <div class="blog-excerpt open-sans-font pb-5">
                     <p>{{$getrecord->description}}</p>
                     <a class="button" target="_blank" href="{{$getrecord->url}}">
-                    <span class="button-text">Ver proyecto</span>
+                    <span class="button-text">See Project</span>
                     <span class="button-icon fa fa-arrow-right"></span>
                 </a>
                 </div>

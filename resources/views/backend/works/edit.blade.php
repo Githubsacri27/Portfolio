@@ -36,7 +36,7 @@
                             <h3 class="card-title">Edit Works Page</h3>
                         </div>
 
-                        <form class="form-horizontal" method="post" action="{{url('admin/works/edit/'.$getrecord->id)}}" enctype="multipart/form-data">
+                        <form class="form-horizontal" method="post" action="{{secure_url('admin/works/edit/'.$getrecord->id)}}" enctype="multipart/form-data">
                             {{csrf_field()}}
                             <div class="card-body">
 
@@ -46,7 +46,7 @@
                                         <input type="file" class="form-control" name="image" class="form-control">
 
                                         @if($getrecord->image)
-                                        <img src="{{ url('public/works/'.$getrecord->image) }}" style="width: 80px; height: 80px; border-radius: 50%;">
+                                        <img src="{{ secure_url('public/works/'.$getrecord->image) }}" style="width: 80px; height: 80px; border-radius: 50%;">
                                         @endif
 
                                     </div>

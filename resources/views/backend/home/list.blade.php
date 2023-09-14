@@ -32,7 +32,7 @@
             <div class="card-header">
               <h3 class="card-title">Home Page</h3>
             </div>
-            <form class="form-horizontal" method="post" action="{{url('admin/home/post')}}" enctype="multipart/form-data">
+            <form class="form-horizontal" method="post" action="{{secure_url('admin/home/post')}}" enctype="multipart/form-data">
               <div class="card-body">
                 {{csrf_field()}}
 
@@ -41,7 +41,7 @@
                   <div class="col-sm-10">
                     <input type="file" class="form-control" name="profile" class="form-control">
                     @if(@$getrecord[0]->profile)
-                    <img src="{{url('public/img/'.@$getrecord[0]->profile)}}" width="200" height="200">
+                    <img src="{{secure_url('public/img/'.@$getrecord[0]->profile)}}" width="200" height="200">
                     @endif
                   </div>
                 </div>

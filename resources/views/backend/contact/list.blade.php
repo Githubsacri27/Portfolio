@@ -52,7 +52,7 @@
                     <td>{{$value->subject}}</td>
                     <td>{{$value->message}}</td>
                     <td>
-                    <a onclick="return confirm('Are you sure want to delete?')" href="{{url ('admin/contact/delete/'.$value->id)}}" class="btn btn-danger">Delete</a>
+                    <a onclick="return confirm('Are you sure want to delete?')" href="{{secure_url ('admin/contact/delete/'.$value->id)}}" class="btn btn-danger">Delete</a>
                     </td>
                   </tr>
                   @endforeach

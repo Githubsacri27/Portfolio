@@ -59,7 +59,7 @@
                     <td>{!! $value->text_editor !!}</td>
                     <td>
                       <a href="{{ secure_url('admin/works/edit/'.$value->id)}}" class="btn btn-primary">Edit</a>
-                      <a onclick="return confirm('Are you sure you want to delete?')" href="{{ url('admin/works/delete/'.$value->id) }}" class="btn btn-danger">Delete</a>
+                      <a onclick="return confirm('Are you sure you want to delete?')" href="{{ secure_url('admin/works/delete/'.$value->id) }}" class="btn btn-danger">Delete</a>
                     </td>
                   </tr>
                   @endforeach
