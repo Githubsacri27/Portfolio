@@ -17,7 +17,7 @@
                 <!-- Meta Ends -->
                 <!-- Article Content Starts -->
                 <h1 class="text-uppercase text-capitalize">{{$getrecord->title}}</h1>
-                <img src="{{ url('public/works/'.$getrecord->image)}}" class="img-fluid" alt="Works image"/>
+                <img src="{{ secure_url('public/works/'.$getrecord->image)}}" class="img-fluid" alt="Works image"/>
                 <div class="blog-excerpt open-sans-font pb-5">
                     <p>{{$getrecord->description}}</p>
                     <a class="button" target="_blank" href="{{$getrecord->url}}">

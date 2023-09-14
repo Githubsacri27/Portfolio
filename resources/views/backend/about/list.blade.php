@@ -254,7 +254,7 @@
                 @else
                 <button type="submit" name="add_to_update" value="Add" class="btn btn-info">Add</button>
                 @endif
-                <a href="{{ url('admin/dashboard') }}" class="btn btn-default float-right">Cancel</a>
+                <a href="{{ secure_url('admin/dashboard') }}" class="btn btn-default float-right">Cancel</a>
               </div>
 
 

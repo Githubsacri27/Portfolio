@@ -9,11 +9,11 @@
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="{{asset('backend/plugins/fontawesome-free/css/all.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('backend/plugins/fontawesome-free/css/all.min.css')}}">
     <!-- icheck bootstrap -->
-    <link rel="stylesheet" href="{{asset('backend/plugins/icheck-bootstrap/icheck-bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('backend/plugins/icheck-bootstrap/icheck-bootstrap.min.css')}}">
     <!-- Theme style -->
-    <link rel="stylesheet" href="{{url('backend/dist/css/adminlte.min.css')}}">
+    <link rel="stylesheet" href="{{secure_url('backend/dist/css/adminlte.min.css')}}">
 </head>
 
 <body class="hold-transition login-page">
@@ -28,7 +28,7 @@
             <div class="card-body login-card-body">
                 <p class="login-box-msg">Sign in to start your session</p>
 
-                <form action="{{url('login_admin')}}" method="post">
+                <form action="{{secure_url('login_admin')}}" method="post">
 
                 {{csrf_field()}}
                     <div class="input-group mb-3">
@@ -65,7 +65,7 @@
                 <!-- /.social-auth-links -->
 
                 <p class="mb-1">
-                    <a href="{{url('forgot')}}">I forgot my password</a>
+                    <a href="{{secure_url('forgot')}}">I forgot my password</a>
                 </p>
             </div>
             <!-- /.login-card-body -->
@@ -74,11 +74,11 @@
     <!-- /.login-box -->
 
     <!-- jQuery -->
-    <script src="{{url('public/backend/plugins/jquery/jquery.min.js')}}"></script>
+    <script src="{{secure_url('public/backend/plugins/jquery/jquery.min.js')}}"></script>
     <!-- Bootstrap 4 -->
-    <script src="{{url('public/backend/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{secure_url('public/backend/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
     <!-- AdminLTE App -->
-    <script src="{{url('public/backend/dist/js/adminlte.min.js')}}"></script>
+    <script src="{{secure_url('public/backend/dist/js/adminlte.min.js')}}"></script>
 </body>
 
 </html>

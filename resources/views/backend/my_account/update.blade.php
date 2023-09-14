@@ -32,7 +32,7 @@
                         <div class="card-header">
                             <h3 class="card-title">My Account Page</h3>
                         </div>
-                        <form class="form-horizontal" method="post" action="{{url('admin/my_account/update')}}" enctype="multipart/form-data">
+                        <form class="form-horizontal" method="post" action="{{secure_url('admin/my_account/update')}}" enctype="multipart/form-data">
                             {{csrf_field()}}
                             <div class="card-body">
 
@@ -66,7 +66,7 @@
                             </div>
                             <div class="card-footer">
                                 <button type="submit" class="btn btn-primary">Update</button>
-                                <a href="{{ url('admin/dashboard') }}" class="btn btn-default float-right">Cancel</a>
+                                <a href="{{ secure_url('admin/dashboard') }}" class="btn btn-default float-right">Cancel</a>
                             </div>
 
 

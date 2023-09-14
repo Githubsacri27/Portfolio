@@ -36,7 +36,7 @@
             <div class="icon">
               <i class="ion ion-bag"></i>
             </div>
-            <a href="{{url('admin/home')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="{{secure_url('admin/home')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -51,7 +51,7 @@
             <div class="icon">
               <i class="ion ion-stats-bars"></i>
             </div>
-            <a href="{{url('admin/about')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="{{secure_url('admin/about')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -65,7 +65,7 @@
             <div class="icon">
               <i class="ion ion-pie-graph"></i>
             </div>
-            <a href="{{url('admin/works')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="{{secure_url('admin/works')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
 
@@ -81,7 +81,7 @@
             <div class="icon">
               <i class="ion ion-pie-graph"></i>
             </div>
-            <a href="{{url('admin/contact')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="{{secure_url('admin/contact')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- /.row -->
@@ -97,7 +97,7 @@
             <div class="icon">
               <i class="ion ion-stats-bars"></i>
             </div>
-            <a href="{{url('admin/social_icon')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="{{secure_url('admin/social_icon')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
 
@@ -113,7 +113,7 @@
             <div class="icon">
               <i class="ion ion-stats-bars"></i>
             </div>
-            <a href="{{url('admin/my_account')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="{{secure_url('admin/my_account')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
 
@@ -128,7 +128,7 @@
             <div class="icon">
               <i class="ion ion-stats-bars"></i>
             </div>
-            <a href="{{url('logout')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="{{secure_url('logout')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- Main row -->

@@ -99,7 +99,7 @@
                                 <button type="submit" class="btn btn-primary">Update</button>
 
 
-                                <a href="{{ url('admin/works/')}}" class="btn btn-default float-right">Cancel</a>
+                                <a href="{{ secure_url('admin/works/')}}" class="btn btn-default float-right">Cancel</a>
                             </div>
 
                         </form>

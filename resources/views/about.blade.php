@@ -18,7 +18,7 @@
                         <h3 class="text-uppercase custom-title mb-0 ft-wt-600">personal info</h3>
                     </div>
                     <div class="col-12 d-block d-sm-none">
-                        <img src="{{ url('public/img/fotoportada.jpg')}}" class="img-fluid main-img-mobile" alt="my picture" />
+                        <img src="{{ secure_url('public/img/fotoportada.jpg')}}" class="img-fluid main-img-mobile" alt="my picture" />
                     </div>
                     <div class="col-6">
                         <ul class="about-list list-unstyled open-sans-font">

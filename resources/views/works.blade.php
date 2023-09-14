@@ -17,13 +17,13 @@
             <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
                 <article class="post-container">
                     <div class="post-thumb">
-                        <a href="{{url('works-post/'.$value->id)}}" class="d-block position-relative overflow-hidden">
-                            <img src="{{ url('public/works/'.$value->image)}}" class="img-fluid" alt="Works Post">
+                        <a href="{{secure_url('works-post/'.$value->id)}}" class="d-block position-relative overflow-hidden">
+                            <img src="{{ secure_url('public/works/'.$value->image)}}" class="img-fluid" alt="Works Post">
                         </a>
                     </div>
                     <div class="post-content">
                         <div class="entry-header">
-                            <h3><a href="{{ url('works-post/'.$value->id)}}">{{ $value->title }}</a></h3>
+                            <h3><a href="{{ secure_url('works-post/'.$value->id)}}">{{ $value->title }}</a></h3>
                         </div>
                         <div class="entry-content open-sans-font">
                             <p>{{$value->description}}

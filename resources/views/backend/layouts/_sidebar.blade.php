@@ -50,7 +50,7 @@
             <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
             <li class="nav-item">
-              <a href="{{url('admin/dashboard')}}" class="nav-link @if(Request::segment(2) == 'dashboard') active @endif">
+              <a href="{{secure_url('admin/dashboard')}}" class="nav-link @if(Request::segment(2) == 'dashboard') active @endif">
                 <i class="nav-icon fas fa-tachometer-alt"></i>
                 <p>
                   Dashboard
@@ -58,7 +58,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="{{url('admin/home')}}" class="nav-link @if(Request::segment(2) == 'home') active @endif">
+              <a href="{{secure_url('admin/home')}}" class="nav-link @if(Request::segment(2) == 'home') active @endif">
                 <i class="nav-icon fa fa-home"></i>
                 <p>
                   Home
@@ -66,7 +66,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="{{url('admin/about')}}" class="nav-link @if(Request::segment(2) == 'about') active @endif">
+              <a href="{{secure_url('admin/about')}}" class="nav-link @if(Request::segment(2) == 'about') active @endif">
                 <i class="nav-icon fa fa-info-circle"></i>
                 <p>
                   About
@@ -74,7 +74,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="{{url('admin/contact')}}" class="nav-link @if(Request::segment(2) == 'contact') active @endif">
+              <a href="{{secure_url('admin/contact')}}" class="nav-link @if(Request::segment(2) == 'contact') active @endif">
                 <i class="nav-icon fa fa-address-book"></i>
                 <p>
                   Contact
@@ -82,7 +82,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="{{url('admin/works')}}" class="nav-link @if(Request::segment(2) == 'works') active @endif">
+              <a href="{{secure_url('admin/works')}}" class="nav-link @if(Request::segment(2) == 'works') active @endif">
                 <i class="nav-icon fas fa-blog "></i>
                 <p>
                   Works
@@ -91,7 +91,7 @@
             </li>
 
             <li class="nav-item">
-              <a href="{{url('admin/social_icon')}}" class="nav-link @if(Request::segment(2) == 'social_icon') active @endif">
+              <a href="{{secure_url('admin/social_icon')}}" class="nav-link @if(Request::segment(2) == 'social_icon') active @endif">
                 <i class="nav-icon fas fa-share-alt "></i>
                 <p>
                   Social Icon
@@ -100,7 +100,7 @@
             </li>
 
             <li class="nav-item">
-              <a href="{{url('admin/my_account')}}" class="nav-link @if(Request::segment(2) == 'my_account') active @endif">
+              <a href="{{secure_url('admin/my_account')}}" class="nav-link @if(Request::segment(2) == 'my_account') active @endif">
                 <i class="nav-icon fa fa-user"></i>
                 <p>
                   My Account
@@ -109,7 +109,7 @@
             </li>
 
             <li class="nav-item">
-              <a href="{{url('logout')}}" class="nav-link @if(Request::segment(2) == 'logout') active @endif">
+              <a href="{{secure_url('logout')}}" class="nav-link @if(Request::segment(2) == 'logout') active @endif">
                 <i class="nav-icon fas fa-sign-out-alt"></i>
                 <p>
                   Logout
