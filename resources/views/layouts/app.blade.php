@@ -12,8 +12,8 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
 
     <!-- CSS Files -->
-    <link href="{{ asset('css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{ asset('css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{ secure_asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{ secure_asset('css/font-awesome.min.css')}}" rel="stylesheet">
     <link href="{{ url('css/fm.revealator.jquery.min.css')}}" rel="stylesheet">
     <link href="{{ url('css/style.css')}}" rel="stylesheet">
 
