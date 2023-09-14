@@ -5,7 +5,7 @@
 <section class="container-fluid main-container container-home p-0 revealator-slideup revealator-once revealator-delay1">
     <div class="row home-details-container align-items-center">
         <div class="col-lg-4 position-fixed d-none d-lg-block">
-            <img width="360px" height="336px" src="{{secure_url('public/img/'.@$getrecord[0]->profile)}}" style="
+            <img width="360px" height="336px" src="{{url('public/img/'.@$getrecord[0]->profile)}}" style="
             display:flex;
             justify-content:center;
             margin: auto;
@@ -21,7 +21,7 @@
 
         <div class="col-12 col-lg-8 offset-lg-4 home-details text-left text-sm-center text-lg-left">
             <div>
-                <img src="{{secure_url('public/img/'.@$getrecord[0]->profile)}}" class="img-fluid main-img-mobile d-none d-sm-block d-lg-none" alt="my picture" />
+                <img src="{{url('public/img/'.@$getrecord[0]->profile)}}" class="img-fluid main-img-mobile d-none d-sm-block d-lg-none" alt="my picture" />
                 <h1 class="text-uppercase poppins-font">{{@$getrecord[0]->your_name}}<span>{{@$getrecord[0]->work_experience}}</span></h1>
                 <p class="open-sans-font">{{@$getrecord[0]->description}}</p>
                 <a class="button" href="{{secure_url('about')}}">
