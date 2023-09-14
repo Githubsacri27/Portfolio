@@ -1,12 +1,11 @@
-// vite.config.js
 import { defineConfig } from 'vite';
+import laravel from 'laravel-vite-plugin';
 
 export default defineConfig({
-  build: {
-    rollupOptions: {
-      input: {
-        main: './public/index.html', // Ruta al archivo index.html
-      },
-    },
-  },
+    plugins: [
+        laravel({
+            input: ['resources/css/app.css', 'resources/js/app.js'], // Aquí corregido
+            refresh: true,
+        }),
+    ],
 });
