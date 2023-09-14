@@ -12,7 +12,6 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
 
     <!-- CSS Files -->
-    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <link href="{{ asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{ asset('css/font-awesome.min.css')}}" rel="stylesheet">
     <link href="{{ url('css/fm.revealator.jquery.min.css')}}" rel="stylesheet">
@@ -31,7 +30,6 @@
     @yield('content')
 
     <!-- JS Files -->
-    <script src="{{ mix('js/app.js') }}"></script>
     <script src="{{ url('js/jquery-3.5.0.min.js')}}"></script>
     <script src="{{ url('js/fm.revealator.jquery.min.js')}}"></script>
     <script src="{{ url('js/imagesloaded.pkgd.min.js')}}"></script>
