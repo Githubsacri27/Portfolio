@@ -25,7 +25,8 @@
 </head>
 
 <body class="{!! !empty($className) ? $className : '' !!}">
-    @include('layouts\sidebar')
+    @include('layouts.sidebar')
+
 
     @yield('content')
 
