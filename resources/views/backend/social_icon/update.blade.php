@@ -32,7 +32,7 @@
                         <div class="card-header">
                             <h3 class="card-title">Social Icon Page</h3>
                         </div>
-                        <form class="form-horizontal" method="post" action="{{ secure_url('admin/social_icon/update/'.$getrecord->id)}}" enctype="multipart/form-data">
+                        <form class="form-horizontal" method="post" action="{{ url('admin/social_icon/update/'.$getrecord->id)}}" enctype="multipart/form-data">
                             {{csrf_field()}}
                             <div class="card-body">
 
@@ -70,7 +70,7 @@
                             </div>
                             <div class="card-footer">
                                 <button type="submit" class="btn btn-primary">Update</button>
-                                <a href="{{ secure_url('admin/dashboard') }}" class="btn btn-default float-right">Cancel</a>
+                                <a href="{{ url('admin/dashboard') }}" class="btn btn-default float-right">Cancel</a>
                             </div>
 
 
