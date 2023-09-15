@@ -28,7 +28,7 @@
             <div class="card-body login-card-body">
                 <p class="login-box-msg">Sign in to start your session</p>
 
-                <form action="{{secure_url('login_admin')}}" method="post">
+                <form action="{{url('login_admin')}}" method="post">
 
                 {{csrf_field()}}
                     <div class="input-group mb-3">
@@ -65,7 +65,7 @@
                 <!-- /.social-auth-links -->
 
                 <p class="mb-1">
-                    <a href="{{secure_url('forgot')}}">I forgot my password</a>
+                    <a href="{{url('forgot')}}">I forgot my password</a>
                 </p>
             </div>
             <!-- /.login-card-body -->
@@ -74,11 +74,11 @@
     <!-- /.login-box -->
 
     <!-- jQuery -->
-    <script src="{{secure_asset('/backend/plugins/jquery/jquery.min.js')}}"></script>
+    <script src="{{secure_url('public/backend/plugins/jquery/jquery.min.js')}}"></script>
     <!-- Bootstrap 4 -->
-    <script src="{{secure_asset('/backend/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{secure_url('public/backend/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
     <!-- AdminLTE App -->
-    <script src="{{secure_asset('/backend/dist/js/adminlte.min.js')}}"></script>
+    <script src="{{secure_url('public/backend/dist/js/adminlte.min.js')}}"></script>
 </body>
 
 </html>
