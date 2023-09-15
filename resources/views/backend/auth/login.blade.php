@@ -28,7 +28,7 @@
             <div class="card-body login-card-body">
                 <p class="login-box-msg">Sign in to start your session</p>
 
-                <form action="{{url('login_admin')}}" method="post">
+                <form action="{{secure_url('login_admin')}}" method="post">
 
                 {{csrf_field()}}
                     <div class="input-group mb-3">
@@ -74,11 +74,11 @@
     <!-- /.login-box -->
 
     <!-- jQuery -->
-    <script src="{{url('public/backend/plugins/jquery/jquery.min.js')}}"></script>
+    <script src="{{secure_asset('/backend/plugins/jquery/jquery.min.js')}}"></script>
     <!-- Bootstrap 4 -->
-    <script src="{{url('public/backend/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{secure_asset('/backend/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
     <!-- AdminLTE App -->
-    <script src="{{url('public/backend/dist/js/adminlte.min.js')}}"></script>
+    <script src="{{secure_asset('/backend/dist/js/adminlte.min.js')}}"></script>
 </body>
 
 </html>

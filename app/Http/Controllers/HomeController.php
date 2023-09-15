@@ -48,6 +48,7 @@ class HomeController extends Controller
         $contact->message = $request->message;
         $contact->save();
         return redirect()->back()->with('success', 'Contact form submitted successfully.');
+
     }
 
     public function works(){
