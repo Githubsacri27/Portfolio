@@ -4,7 +4,6 @@
 <!-- Main Content Starts -->
 <section class="container-fluid main-container container-home p-0 center-vertically">
     <div class="row home-details-container align-items-center">
-
         <div class="col-12 col-lg-8 offset-lg-4 home-details text-left text-sm-center text-lg-left">
             <div>
                 <h1 class="text-uppercase poppins-font">{{@$getrecord[0]->your_name}}<span>{{@$getrecord[0]->work_experience}}</span></h1>
