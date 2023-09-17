@@ -24,7 +24,7 @@
         <li class="icon-box">
             <i class="fa fa-comments"></i>
             <a href="{{secure_url('works')}}">
-                <h2>Works</h2>
+                <h2>Proyects</h2>
             </a>
         </li>
     </ul>
@@ -40,7 +40,7 @@
                 <li class="active"><a href="{{secure_url('/')}}"><i class="fa fa-home"></i><span>Home</span></a></li>
                 <li><a href="{{secure_url('about')}}"><i class="fa fa-user"></i><span>About</span></a></li>
                 <li><a href="{{secure_url('contact')}}"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
-                <li><a href="{{secure_url('works')}}"><i class="fa fa-comments"></i><span>Works</span></a></li>
+                <li><a href="{{secure_url('works')}}"><i class="fa fa-comments"></i><span>Proyects</span></a></li>
             </ul>
         </div>
     </nav>

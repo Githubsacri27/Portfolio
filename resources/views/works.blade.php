@@ -2,7 +2,7 @@
 @section('content')
 <!-- Page Title Starts -->
 <section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
-    <h1>my <span>works</span></h1>
+    <h1>my <span>Proyects</span></h1>
     <span class="title-bg">posts</span>
 </section>
 <!-- Page Title Ends -->

@@ -321,6 +321,14 @@ hr.separator {
   top: 40px;
   box-shadow: 0 0 7px rgba(0, 0, 0, .9);
 }
+.center-vertically {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+}
+
 
 
 .seccion {
