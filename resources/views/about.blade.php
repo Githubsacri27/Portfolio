@@ -17,9 +17,6 @@
                     <div class="col-12">
                         <h3 class="text-uppercase custom-title mb-0 ft-wt-600">personal info</h3>
                     </div>
-                    <div class="col-12 d-block d-sm-none">
-                        <img src="{{ secure_url('public/img/fotop.jpg')}}" class="img-fluid main-img-mobile" alt="my picture" />
-                    </div>
                     <div class="col-6">
                         <ul class="about-list list-unstyled open-sans-font">
                             <li> <span class="title">Name :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{{@$getrecord[0]->first_name}}</span> </li>
@@ -30,11 +27,11 @@
                     </div>
                     <div class="col-6">
                         <ul class="about-list list-unstyled open-sans-font">
-                            
+
                             <li> <span class="title">Github :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{{@$getrecord[0]->github}}</span> </li>
                             <li> <span class="title">Linkedin :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{{@$getrecord[0]->linkedin}}</span> </li>
                             <li> <span class="title">Email :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{{@$getrecord[0]->email}}</span> </li>
-                            
+
                         </ul>
                     </div>
                 </div>
@@ -59,7 +56,7 @@
             </div>
             <!-- Boxes Ends -->
         </div>
-        
+
         <hr class="separator mt-1">
         <!-- Experience & Education Starts -->
         <div class="row">
@@ -131,5 +128,3 @@
     </div>
 </section>
 @endsection
-
-
