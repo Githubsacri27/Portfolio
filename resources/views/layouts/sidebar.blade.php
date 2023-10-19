@@ -5,25 +5,25 @@
     <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
         <li class="icon-box active">
             <i class="fa fa-home"></i>
-            <a href="{{secure_url('/')}}">
+            <a href="{{url('/')}}">
                 <h2>Home</h2>
             </a>
         </li>
         <li class="icon-box">
             <i class="fa fa-user"></i>
-            <a href="{{secure_url('about')}}">
+            <a href="{{url('about')}}">
                 <h2>About</h2>
             </a>
         </li>
         <li class="icon-box">
             <i class="fa fa-envelope-open"></i>
-            <a href="{{secure_url('contact')}}">
+            <a href="{{url('contact')}}">
                 <h2>Contact</h2>
             </a>
         </li>
         <li class="icon-box">
             <i class="fa fa-comments"></i>
-            <a href="{{secure_url('works')}}">
+            <a href="{{url('works')}}">
                 <h2>Projects</h2>
             </a>
         </li>
@@ -37,10 +37,10 @@
             <span></span>
             <span></span>
             <ul class="list-unstyled" id="menu">
-                <li class="active"><a href="{{secure_url('/')}}"><i class="fa fa-home"></i><span>Home</span></a></li>
-                <li><a href="{{secure_url('about')}}"><i class="fa fa-user"></i><span>About</span></a></li>
-                <li><a href="{{secure_url('contact')}}"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
-                <li><a href="{{secure_url('works')}}"><i class="fa fa-comments"></i><span>Projects</span></a></li>
+                <li class="active"><a href="{{url('/')}}"><i class="fa fa-home"></i><span>Home</span></a></li>
+                <li><a href="{{url('about')}}"><i class="fa fa-user"></i><span>About</span></a></li>
+                <li><a href="{{url('contact')}}"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
+                <li><a href="{{url('works')}}"><i class="fa fa-comments"></i><span>Projects</span></a></li>
             </ul>
         </div>
     </nav>

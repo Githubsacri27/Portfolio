@@ -11,10 +11,10 @@
     <div class="container">
 
         @include('_message')
-
+        <div class="row justify-content-center">
         <div class="row">
             <!-- Left Side Starts -->
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-lg-8">
                 <h3 class="text-uppercase custom-title mb-0 ft-wt-600 pb-3">Contact me!</h3>
                 <p class="open-sans-font mb-3">{{$getrecord->name}}</p>
                 <p class="open-sans-font custom-span-contact position-relative">
@@ -30,10 +30,10 @@
                 </ul>
             </div>
             <!-- Left Side Ends -->
-            <!-- Contact Form Starts -->
+            <!-- Contact Form Starts 
             <div class="col-12 col-lg-8">
-                <form method="post" action="{{secure_url('contact/post')}}">
-                @csrf
+                <form method="post" action="{{url('contact/post')}}">
+                    @csrf
                     {{ csrf_field() }}
                     <div class="contactform">
                         <div class="row">
@@ -80,6 +80,8 @@
                     </div>
             </div>
             </form>
+            -->
+        </div>
         </div>
         <!-- Contact Form Ends -->
     </div>
