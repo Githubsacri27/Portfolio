@@ -12,10 +12,10 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
 
     <!-- CSS Files -->
-    <link href="{{ asset('css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{ asset('css/font-awesome.min.css')}}" rel="stylesheet">
-    <link href="{{ url('css/fm.revealator.jquery.min.css')}}" rel="stylesheet">
-    <link href="{{ url('css/style.css')}}" rel="stylesheet">
+    <link href="{{ secure_asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{ secure_asset('css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{ secure_url('css/fm.revealator.jquery.min.css')}}" rel="stylesheet">
+    <link href="{{ secure_url('css/style.css')}}" rel="stylesheet">
 
     <!-- CSS Skin File -->
     <link href="{{ url('css/skins/yellow.css')}}" rel="stylesheet">
@@ -45,15 +45,15 @@
     @yield('content')
 
     <!-- JS Files -->
-    <script src="{{ url('js/jquery-3.5.0.min.js')}}"></script>
-    <script src="{{ url('js/fm.revealator.jquery.min.js')}}"></script>
-    <script src="{{ url('js/imagesloaded.pkgd.min.js')}}"></script>
-    <script src="{{ url('js/masonry.pkgd.min.js')}}"></script>
-    <script src="{{ url('js/classie.js')}}"></script>
-    <script src="{{ url('js/cbpGridGallery.js')}}"></script>
-    <script src="{{ url('js/jquery.hoverdir.js')}}"></script>
-    <script src="{{ url('js/popper.min.js')}}"></script>
-    <script src="{{ url('js/custom.js')}}"></script>
+    <script src="{{ secure_url('js/jquery-3.5.0.min.js')}}"></script>
+    <script src="{{ secure_url('js/fm.revealator.jquery.min.js')}}"></script>
+    <script src="{{ secure_url('js/imagesloaded.pkgd.min.js')}}"></script>
+    <script src="{{ secure_url('js/masonry.pkgd.min.js')}}"></script>
+    <script src="{{ secure_url('js/classie.js')}}"></script>
+    <script src="{{ secure_url('js/cbpGridGallery.js')}}"></script>
+    <script src="{{ secure_url('js/jquery.hoverdir.js')}}"></script>
+    <script src="{{ secure_url('js/popper.min.js')}}"></script>
+    <script src="{{ secure_url('js/custom.js')}}"></script>
 
 </body>
 
