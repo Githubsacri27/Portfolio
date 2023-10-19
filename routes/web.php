@@ -26,7 +26,9 @@ Route::get('about', [HomeController::class, 'about']);
 
 Route::get('contact', [HomeController::class, 'contact']);
 
+//Route::post('contact/post', [HomeController::class, 'contact_post']);
 Route::post('contact/post', [HomeController::class, 'contact_post']);
+
 
 Route::get('/works', [HomeController::class, 'works']);
 Route::get('works-post/{id}', [HomeController::class, 'works_post']);

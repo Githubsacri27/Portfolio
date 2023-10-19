@@ -33,6 +33,7 @@
             <!-- Contact Form Starts -->
             <div class="col-12 col-lg-8">
                 <form method="post" action="{{url ('contact/post')}}">
+                @csrf
                     {{ csrf_field() }}
                     <div class="contactform">
                         <div class="row">
