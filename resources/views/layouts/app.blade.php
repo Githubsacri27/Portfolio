@@ -18,10 +18,10 @@
     <link href="{{ secure_url('css/style.css')}}" rel="stylesheet">
 
     <!-- CSS Skin File -->
-    <link href="{{ url('css/skins/yellow.css')}}" rel="stylesheet">
+    <link href="{{ secure_url('css/skins/yellow.css')}}" rel="stylesheet">
 
     <!-- Modernizr JS File -->
-    <script src="{{ url('js/modernizr.custom.js')}}"></script>
+    <script src="{{ secure_url('js/modernizr.custom.js')}}"></script>
 </head>
 
 <body class="{!! !empty($className) ? $className : '' !!}">

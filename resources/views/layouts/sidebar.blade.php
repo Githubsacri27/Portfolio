@@ -37,7 +37,7 @@
             <span></span>
             <span></span>
             <ul class="list-unstyled" id="menu">
-                <li class="active"><a href="{{url('/')}}"><i class="fa fa-home"></i><span>Home</span></a></li>
+                <li class="active"><a href="{{secure_url('/')}}"><i class="fa fa-home"></i><span>Home</span></a></li>
                 <li><a href="{{secure_url('about')}}"><i class="fa fa-user"></i><span>About</span></a></li>
                 <li><a href="{{secure_url('contact')}}"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
                 <li><a href="{{secure_url('works')}}"><i class="fa fa-comments"></i><span>Projects</span></a></li>
